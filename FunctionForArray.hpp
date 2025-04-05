@@ -14,8 +14,8 @@ namespace Function_For_Array
 		array<short, 16> getArray();
 		short getMinValue();
 		short getMaxValue();
-		short getFiltering();
-		short getAverage();
+		array<short, 16> getFiltering();
+		double getAverage();
 
 		void setArray(const array<short, 16>& Array);
 		void setMinValue(const short& minValue);
